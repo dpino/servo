@@ -70,7 +70,7 @@ malloc_size_of = { git = "https://github.com/servo/stylo", branch = "2024-05-15"
 malloc_size_of_derive = "0.1"
 mime = "0.3.13"
 mime_guess = "2.0.3"
-mozangle = "0.5.1"
+mozangle = { git = "https://github.com/dpino/mozangle.git", branch = "disable-sse2" }
 net_traits = { path = "components/shared/net" }
 num-traits = "0.2"
 num_cpus = "1.1.0"
